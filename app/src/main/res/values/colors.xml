@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //cores do aplicativo
+    <color name="Primary">#87D69B</color>
+    <color name="Primary_dark">#4E9689</color>
+    <color name="Acent">#7ED0D6</color>
+
+    // cores segundarias
+    <color name="segundaria">#C3FF68</color>
+    <color name="segundaria_dark">#015E5D</color>
+
+    // cores aplicadas as letras
+    <color name="Black">#000000</color>
+    <color name="White">#FFFFFFFF</color>
+</resources>

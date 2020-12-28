@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.listadetarefas.activity.MainActivity">
+
+    <!--   android:orderInCategory="?" define a ordem que os itens aparecem   -->
+    <!--   app:showAsAction escolhe se vai aparecer fixo ou não   -->
+
+    <item
+        android:id="@+id/Crescente"
+        android:orderInCategory="100"
+        android:title="@string/crescente"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/Decescente"
+        android:orderInCategory="100"
+        android:title="@string/descrente"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/app_bar_busca"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="TODO"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+
+</menu>
